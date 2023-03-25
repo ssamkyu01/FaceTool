@@ -63,6 +63,8 @@ class FaceDetector:
                 frames (frame with detected face) and 5 correspond to
                 [frame_idx, x, y, w, h] of the box.
         """
+
+        
         video = mpe.VideoFileClip(path)
         frame_iter = video.iter_frames()
 
